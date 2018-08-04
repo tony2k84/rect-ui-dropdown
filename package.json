@@ -20,7 +20,9 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

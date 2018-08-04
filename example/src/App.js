@@ -1,48 +1,30 @@
 import React, { Component } from 'react'
-
 import RectUIDropdown from 'rect-ui-dropdown'
+import currencies from './currencies.json';
 
 export default class App extends Component {
-  onSelect = ({key, value}) => {
-    console.log('selected values:', key, value);
+  constructor(props){
+    super(props);
+    this.state = {
+      selectedValue: '',
+    }
   }
-  render () {
+  onChange = (e, d) => {
+    console.log(d.value);
+    this.setState({selectedValue: d.value})
+  }
+  render() {
+    const {selectedValue} = this.state;
     return (
-      <div>
-        <h5>Default Dropdown</h5>
+      <div style={{ padding: 20 }}>
         <RectUIDropdown
-          prompt='Select Currency'
-          values={[
-            {key:'1', value: 'USD'},
-            {key:'2', value: 'MYR'},
-          ]}
-          onSelect={this.onSelect}
+          placeholder='Select Currency'
+          options={currencies}
+          onChange={this.onChange}
+          value={selectedValue}
+          maxsearch={10}
         />
-
-        <h5>Searchable Dropdown</h5>
-        <RectUIDropdown
-          prompt='Select Currency'
-          values={[
-            {key:'1', value: 'USD'},
-            {key:'2', value: 'MYR'},
-          ]}
-          onSelect={this.onSelect}
-        />
-
-        <h5>Searchable Dropdown (Huge Data)</h5>
-        <RectUIDropdown
-          prompt='Select Currency'
-          values={[
-            {key:'1', value: 'USD'},
-            {key:'2', value: 'MYR'},
-          ]}
-          onSelect={this.onSelect}
-          maxSearch={10}
-        />
-
       </div>
-
-      
     )
   }
 }

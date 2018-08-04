@@ -1,0 +1,112 @@
+[
+    {
+        "key": 149,
+        "value": "UAH",
+        "text": "UAH"
+    },
+    {
+        "key": 150,
+        "value": "UGX",
+        "text": "UGX"
+    },
+    {
+        "key": 151,
+        "value": "USD",
+        "text": "USD"
+    },
+    {
+        "key": 152,
+        "value": "UYU",
+        "text": "UYU"
+    },
+    {
+        "key": 153,
+        "value": "UZS",
+        "text": "UZS"
+    },
+    {
+        "key": 154,
+        "value": "VEF",
+        "text": "VEF"
+    },
+    {
+        "key": 155,
+        "value": "VND",
+        "text": "VND"
+    },
+    {
+        "key": 156,
+        "value": "VUV",
+        "text": "VUV"
+    },
+    {
+        "key": 157,
+        "value": "WST",
+        "text": "WST"
+    },
+    {
+        "key": 158,
+        "value": "XAF",
+        "text": "XAF"
+    },
+    {
+        "key": 159,
+        "value": "XAG",
+        "text": "XAG"
+    },
+    {
+        "key": 160,
+        "value": "XAU",
+        "text": "XAU"
+    },
+    {
+        "key": 161,
+        "value": "XCD",
+        "text": "XCD"
+    },
+    {
+        "key": 162,
+        "value": "XDR",
+        "text": "XDR"
+    },
+    {
+        "key": 163,
+        "value": "XOF",
+        "text": "XOF"
+    },
+    {
+        "key": 164,
+        "value": "XPD",
+        "text": "XPD"
+    },
+    {
+        "key": 165,
+        "value": "XPF",
+        "text": "XPF"
+    },
+    {
+        "key": 166,
+        "value": "XPT",
+        "text": "XPT"
+    },
+    {
+        "key": 167,
+        "value": "YER",
+        "text": "YER"
+    },
+    {
+        "key": 168,
+        "value": "ZAR",
+        "text": "ZAR"
+    },
+    {
+        "key": 169,
+        "value": "ZMW",
+        "text": "ZMW"
+    },
+    {
+        "key": 170,
+        "value": "ZWL",
+        "text": "ZWL"
+    }
+]
