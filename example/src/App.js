@@ -10,7 +10,6 @@ export default class App extends Component {
     }
   }
   onChange = (e, d) => {
-    console.log(d.value);
     this.setState({selectedValue: d.value})
   }
   render() {

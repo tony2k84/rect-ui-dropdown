@@ -5,14 +5,9 @@ export default class RectUIDropdown extends Component {
 
   constructor(props) {
     super(props);
+    console.log(props);
     this.state = {
-      optimizedOptions: [
-      {
-        "key": 0,
-        "value": props.value,
-        "text": props.value
-      }
-    ]
+      optimizedOptions: []
     }
   }
 
@@ -23,13 +18,13 @@ export default class RectUIDropdown extends Component {
   }
 
   render() {
-    let { optimizedOptions } = this.state;
+    const {value} = this.props;
     return (
       <Dropdown
         {...this.props}
         search={this.handleSearch}
         selection
-        options={optimizedOptions} />
+        options={[{key: 0,value: value,text: value}]} />
     )
   }
 }
