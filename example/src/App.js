@@ -16,12 +16,13 @@ export default class App extends Component {
     const {selectedValue} = this.state;
     return (
       <div style={{ padding: 20 }}>
+        <h5>Current Dropdown (try searching for U**)</h5>
         <RectUIDropdown
           placeholder='Select Currency'
           options={currencies}
           onChange={this.onChange}
           value={selectedValue}
-          maxsearch={10}
+          maxsearch={5}
         />
       </div>
     )
